@@ -1,0 +1,9 @@
+Insert html 
+Add meta data and author name to head
+Boiler plate code for homepage
+Add basic html to footer, with links and icons for social media
+Bug fix - initially footer links didn't work, forgot the https://
+Add font-awesome script below footer
+
+
+Remember - redirect page after user hits "submit" on form
