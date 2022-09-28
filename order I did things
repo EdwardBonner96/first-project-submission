@@ -9,6 +9,7 @@ Add basic html form inputs and check in browser
 Add wireframe to images (use in readme later)
 uploaded images from pexels (credit them!)
 Added header bar with navigation linked to website
+Added hero image container and text with ids
 
 
 Remember - redirect page after user hits "submit" on form
