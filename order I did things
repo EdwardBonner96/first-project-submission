@@ -10,6 +10,7 @@ Add wireframe to images (use in readme later)
 uploaded images from pexels (credit them!)
 Added header bar with navigation linked to website
 Added hero image container and text with ids
+Added about us heading and filler text, giving relevant parts IDs
 
 
 Remember - redirect page after user hits "submit" on form
