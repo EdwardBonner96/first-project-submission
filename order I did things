@@ -5,6 +5,7 @@ Add basic html to footer, with links and icons for social media
 Bug fix - initially footer links didn't work, forgot the https://
 Add font-awesome script below footer
 Embed map in map section using Googlemaps share and embed
+Add basic html form inputs and check in browser
 
 
 Remember - redirect page after user hits "submit" on form
