@@ -14,7 +14,7 @@ Also removes default border, padding and margins */
 /* sticky nav bar styling */
 
 header {
-    position: fixed;
+    position: relative;
     z-index: 2;
     width: 100%;
     border: solid 1px #003b49;
@@ -54,7 +54,6 @@ nav a:hover {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    padding-top: 50px;
 }
 
 #hero-image {
