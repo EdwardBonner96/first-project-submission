@@ -100,8 +100,19 @@ nav a:hover {
 }
 
 #meet-ups h2,h3 {
+    font-size: 140%;
     color: white;
     padding: 1em
+}
+
+#meet-ups h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#meet-ups i {
+    color: yellow;
+    padding: 0.4em;
 }
 
 /* Sign Up */
