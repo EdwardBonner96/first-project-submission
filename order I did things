@@ -12,5 +12,6 @@ Added header bar with navigation linked to website
 Added hero image container and text with ids
 Added about us heading and filler text, giving relevant parts IDs
 Added meetups filler text and split section into 3 divs
+Placed proper text in about us section
 
 Remember - redirect page after user hits "submit" on form
