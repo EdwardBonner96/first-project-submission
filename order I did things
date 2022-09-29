@@ -16,5 +16,7 @@ Placed proper text in about us section
 Imported Montserrat as the default font with sans-serif as a backup (googlefonts)
 Added accessible colour as default text #003b49 (AAA rated on WCAG)
 Styled nav bar
+Added basic styling to header and nav elements
+Styled responsive footer - note when browser window is shrunk the youtube icon can go to a separate line
 
 Remember - redirect page after user hits "submit" on form

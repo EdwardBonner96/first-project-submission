@@ -13,7 +13,7 @@
     float: left;
 }
 
-/* nav bar styling */
+/* sticky nav bar styling */
 nav {
     float: right;
     font-size: 120%;
@@ -35,4 +35,23 @@ header {
     background-color: red;
     width: 100%;
     border: solid 1px #003b49;
+}
+
+/* Footer styling */ 
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+}
+
+footer > a {
+    text-decoration: none;
+    padding: 0 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: blue;
 }
