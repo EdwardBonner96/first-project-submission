@@ -24,6 +24,8 @@ vertically centered text in header
 ///inserted hero image/background
 Put about us text into two columns and padded
 ///note header jumps directly onto sections nav bar jumps to
-Changed header position to relative to fix bug making it cover the top of the sections it jumped to when using nav elements
+Changed header position to relative to fix bug making it cover the top of the sections it jumped to when using nav elements (no longer sticky)
+Styled meetups section
+Fixed bug: Got rid of extra left/right footer padding that extended the website past 100% and header border that did the same
 
 Remember - redirect page after user hits "submit" on form
