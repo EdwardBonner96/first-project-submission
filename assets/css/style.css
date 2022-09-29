@@ -68,6 +68,17 @@ nav a:hover {
 
 /* About Us */
 
+#about-us {
+    column-count: 2;
+    padding: 1em;
+    text-align: justify;
+}
+
+#about-us-title {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
 /* Meet Ups */
 
 /* Sign Up */
