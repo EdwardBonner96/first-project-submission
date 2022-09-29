@@ -24,5 +24,6 @@ vertically centered text in header
 ///inserted hero image/background
 Put about us text into two columns and padded
 ///note header jumps directly onto sections nav bar jumps to
+Changed header position to relative to fix bug making it cover the top of the sections it jumped to when using nav elements
 
 Remember - redirect page after user hits "submit" on form

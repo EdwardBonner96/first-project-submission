@@ -59,10 +59,11 @@ nav a:hover {
 #hero-image {
     height: 500px;
     width: 100%;
-    background-image: url("../images/hero-image-pexels-pixabay-resized.jpg");
+    background-image: url("../images/hero-image-pexels-pixabay-resized2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: red;
+    background-size: cover;
 }
 
 /* About Us */
@@ -79,6 +80,15 @@ nav a:hover {
 }
 
 /* Meet Ups */
+
+#meet-ups {
+    background-image: url("../images/meet-image-pexels-tima-miroshnichenko.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
 
 /* Sign Up */
 
