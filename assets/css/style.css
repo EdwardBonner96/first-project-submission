@@ -1,7 +1,13 @@
-/* Imports Montserrat as the default font with sans-serif as a backup */
+/* Imports Montserrat as the default font with sans-serif as a backup, taken from googlefonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     font-family: 'Montserrat', sans-serif;
+    color: #003b49;
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bolder;
 }
