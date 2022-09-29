@@ -18,5 +18,8 @@ Added accessible colour as default text #003b49 (AAA rated on WCAG)
 Styled nav bar
 Added basic styling to header and nav elements
 Styled responsive footer - note when browser window is shrunk the youtube icon can go to a separate line
+Removed all basic padding, margins and borders to get the heading to the top of the page
+vertically centered text in header
+detected bug in dev tools - header now wider than body (screenshot)
 
 Remember - redirect page after user hits "submit" on form

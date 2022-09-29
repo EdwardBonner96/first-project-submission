@@ -1,4 +1,5 @@
-/* Imports Montserrat as the default font with sans-serif as a backup, taken from googlefonts */
+/* Imports Montserrat as the default font with sans-serif as a backup, taken from googlefonts. 
+Also removes default border, padding and margins */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -15,34 +16,61 @@
 header {
     position: fixed;
     z-index: 2;
-    background-color: red;
     width: 100%;
     border: solid 1px #003b49;
     height: 50px;
+    background-color: white;
 }
 
 #title {
     text-transform: uppercase;
     font-weight: bolder;
     float: left;
-    padding: 0;
-    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 10px;
 }
 
 nav {
     float: right;
     font-size: 120%;
-    padding: 1rem;
 }
 
 nav > a {
     text-decoration: none;
+    font-weight: bold;
     padding-right: 10px;
+    line-height: 50px;
+    height: 50px;
 }
 
 nav a:hover {
     color: blue;
 }
+
+/* Hero Image */
+
+#hero-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/hero-image-pexels-pixabay-resized.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: red;
+}
+
+/* About Us */
+
+/* Meet Ups */
+
+/* Sign Up */
 
 /* Footer styling */ 
 
@@ -62,3 +90,5 @@ footer > a {
 footer a:hover {
     color: blue;
 }
+
+/* Media queries for responsive sizing based on user device size */
