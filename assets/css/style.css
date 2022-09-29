@@ -10,4 +10,29 @@
 #title {
     text-transform: uppercase;
     font-weight: bolder;
+    float: left;
+}
+
+/* nav bar styling */
+nav {
+    float: right;
+    font-size: 120%;
+    padding: 1rem;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    background-color: red;
+    width: 100%;
+    border: solid 1px #003b49;
 }
