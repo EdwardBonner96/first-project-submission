@@ -11,7 +11,7 @@ Also removes default border, padding and margins */
     border: 0;
 }
 
-/* sticky nav bar styling */
+/* nav bar styling */
 
 header {
     position: relative;
@@ -88,6 +88,20 @@ nav a:hover {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+}
+
+#meet-ups div {
+    text-align: center;
+    width: 33%;
+    height: 400px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 1.5em;
+}
+
+#meet-ups h2,h3 {
+    color: white;
+    padding: 1em
 }
 
 /* Sign Up */
