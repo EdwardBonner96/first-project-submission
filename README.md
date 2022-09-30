@@ -69,8 +69,14 @@ Having a rough plan of the website while building it is immensely useful and I h
 
 ## Deployment
 ### Gitpod
+ - Gitpod contains all of the building blocks and commits of the site. 
 
 ### Github Pages
+ - The finished site was deployed to Github pages
+ - In the github repository, navigate to setttings
+ - From the source menu select the master or root branch
+ - Once selected the page will be refreshed and the site deployed
+ - The live link can be found here: 
 
 ## Credits
 ### Content
