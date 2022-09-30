@@ -36,13 +36,13 @@
                 We welcome anyone with a strong passion for film, theater and reviewing films. The purpose of Didcot Film Club (DFC)
                 is to enhance a members understanding and knowledge of films, both well known and underappreciated. We have a fun and
                 lighthearted environment for film enthusiasts that like to look a little deeper into film and cinema. After viewing
-                we have fa-solid discussions and optional debates in which everyone can express their opinion and thoughts so we can 
+                we have discussions and optional debates in which everyone can express their opinion and thoughts so we can 
                 discover the message the film was trying to establish, whether it's a deep-rooted philosophical discussion on human 
                 nature, politics or if that really was a simple surface-level film to enjoy for what it seemed to be. If this club
                 sounds like something you'd enjoy then please sign up below or come to one of our meet-ups and get to know us! Feel
                 free to come along with any of your own suggestions or favourite films and if you have any questions just sign up below
                 and we'll get in touch with you as soon as we can. <em>It's always better to get in touch since we can be sure to book 
-                seats by eachother and fa-solidly get discounts from local venues!</em>
+                seats by eachother and get discounts from local venues!</em>
             </p>
         </div>
     </section>
@@ -60,7 +60,7 @@
             <h3>Didcot Cineworld Screen 2</h3>
             <h3>18.20 Tuesday 24th</h3>
             <h3>1h 55m</h3>
-            <h3>Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <h3>Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i></h3>
         </div>
         <div>
@@ -68,38 +68,42 @@
             <h3>Didcot Cineworld Screen 5</h3>
             <h3>12.45 Saturday 28th</h3>
             <h3>2h 13m</h3>
-            <h3>Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <h3>Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
         </div>
     </section>
     <!-- Sign up form with required contact details -->
     <section id="sign-up">
-        <form>
-            <legend>Sign Up Here!</legend>
-            <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" required>
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" required>
-            <label for="email-address">Email Address:</label>
-            <input type="email" id="email-address" required>
-            <legend>Favourite Genres:</legend>
-            <label for="action">Action</label>
-            <input type="checkbox" id="action" name="action" value="Action">
-            <label for="comedy">Comedy</label>
-            <input type="checkbox" id="comedy" name="comedy" value="Comedy">
-            <label for="crime">Crime</label>
-            <input type="checkbox" id="crime" name="crime" value="Crime">
-            <label for="documentary">Documentary</label>
-            <input type="checkbox" id="documentary" name="documentary" value="Documentary">
-            <label for="drama">Drama</label>
-            <input type="checkbox" id="drama" name="drama" value="Drama">
-            <label for="horror">Horror</label>
-            <input type="checkbox" id="horror" name="horror" value="Horror">
-            <label for="romance">Romance</label>
-            <input type="checkbox" id="romance" name="romance" value="Romance">
-            <label for="sci-fi">Sci-fi</label>
-            <input type="checkbox" id="sci-fi" name="sci-fi" value="Sci-fi">
-            <input type="submit" value="Submit"> 
+        <form action="website-url" method="post">
+            <fieldset>
+                <legend>Sign Up Below!</legend>
+                <label for="first-name" class="required-details">First Name:</label>
+                <input type="text" id="first-name" required class="required-text">
+                <label for="last-name" class="required-details">Last Name:</label>
+                <input type="text" id="last-name" required class="required-text">
+                <label for="email-address" class="required-details">Email Address:</label>
+                <input type="email" id="email-address" required class="required-text">
+            </fieldset>
+            <fieldset>
+                <legend>Favourite Genres:</legend>
+                <label for="action">Action</label>
+                <input type="checkbox" id="action" name="action" value="Action" class="genre-input">
+                <label for="comedy">Comedy</label>
+                <input type="checkbox" id="comedy" name="comedy" value="Comedy" class="genre-input">
+                <label for="crime">Crime</label>
+                <input type="checkbox" id="crime" name="crime" value="Crime" class="genre-input">
+                <label for="documentary">Documentary</label>
+                <input type="checkbox" id="documentary" name="documentary" value="Documentary" class="genre-input">
+                <label for="drama">Drama</label>
+                <input type="checkbox" id="drama" name="drama" value="Drama" class="genre-input">
+                <label for="horror">Horror</label>
+                <input type="checkbox" id="horror" name="horror" value="Horror" class="genre-input">
+                <label for="romance">Romance</label>
+                <input type="checkbox" id="romance" name="romance" value="Romance" class="genre-input">
+                <label for="sci-fi">Sci-fi</label>
+                <input type="checkbox" id="sci-fi" name="sci-fi" value="Sci-fi" class="genre-input">
+            </fieldset> 
+            <input type="submit" value="Submit" id="submit">
         </form>
     </section>
     <!-- Embedded googlemaps to Didcot cinema, all iframe taken from Googlemaps share and embed -->

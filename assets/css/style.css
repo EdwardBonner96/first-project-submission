@@ -24,7 +24,9 @@ header {
     border-bottom: 1px solid #003b49;
 }
 
-/* html element code taken from: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ */
+/* html element code taken from: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ 
+this code stops the header from overlapping content*/
+
 html {
     scroll-padding-top: 50px;
 }
@@ -52,7 +54,7 @@ nav > a {
 }
 
 nav a:hover {
-    color: blue;
+    color: orangered;
 }
 
 /* Hero Image */
@@ -79,11 +81,12 @@ nav a:hover {
     text-align: center center;
     height: 100px;
     width: 250px;
-    background-color: red;
+    background-color: white;
     position: absolute;
     top: 15%;
     left: 15%;
     padding: 10px 0 0 10px;
+    border: solid 1px #003b49;
 }
 
 /* About Us */
@@ -122,7 +125,7 @@ nav a:hover {
 #meet-ups h2,h3 {
     font-size: 140%;
     color: white;
-    padding: 1em
+    padding: 3%;
 }
 
 #meet-ups h2 {
@@ -132,10 +135,60 @@ nav a:hover {
 
 #meet-ups i {
     color: yellow;
-    padding: 0.4em;
+    padding: 2%;
 }
 
-/* Sign Up */
+/* Sign Up form */
+
+form {
+    text-align: center;
+    border: 2px solid #003b49;
+    margin: 5px;
+}
+
+fieldset {
+    padding: 10px 0 20px 0;
+}
+
+legend {
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.required-details {
+    padding-left: 10px;
+}
+
+.required-text {
+    border: 1px solid #003b49;
+    border-radius: 10%;
+    padding: 2px 5px;
+}
+
+.required-text:hover {
+    border-color: orangered;
+}
+
+.genre-input {
+    margin-right: 10px;
+}
+
+#submit {
+    font-size: larger;
+    font-weight: bolder;
+    border: 2px solid #003b49;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#submit:hover {
+    color: orangered;
+    border: 2px solid orangered;
+}
 
 /* Footer styling */ 
 
@@ -153,7 +206,7 @@ footer > a {
 }
 
 footer a:hover {
-    color: blue;
+    color: orangered;
 }
 
 /* Media queries for responsive sizing based on user device size */

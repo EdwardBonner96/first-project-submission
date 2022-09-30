@@ -29,3 +29,5 @@ Styled meetups section
 Fixed bug: Got rid of extra left/right footer padding that extended the website past 100% and header border that did the same
 Add hero text in div to hero image, gave up on circle idea, difficult to implement
 Fixed header element with code from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
+Gave the form elements classes and styled the form
+changed header and footer hover colour to orangered to increase contrast for accessibility
