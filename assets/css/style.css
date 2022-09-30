@@ -209,4 +209,32 @@ footer a:hover {
     color: orangered;
 }
 
-/* Media queries for responsive sizing based on user device size */
+/* Media queries for responsive sizing based on user device size 
+responsiveness added for under 900px since this is where the website starts to struggle 
+(manual testing using how big is my browser and checking features) */
+
+/* Media query for devices with 900 or fewer pixels, i.e. tablets and mobile phones */
+@media screen and (max-width: 900px) {
+
+    header #title {
+        font-size: 80%;
+    }
+
+    nav {
+        font-size: 80%;
+    }
+
+    #about-us {
+        column-count: 1;
+    }
+
+    #meet-ups div {
+        width: 100%;
+    }
+
+    footer a {
+        font-size: 1em;
+        padding: 0 1em;
+    }
+
+}

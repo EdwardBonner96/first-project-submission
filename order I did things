@@ -31,3 +31,9 @@ Add hero text in div to hero image, gave up on circle idea, difficult to impleme
 Fixed header element with code from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
 Gave the form elements classes and styled the form
 changed header and footer hover colour to orangered to increase contrast for accessibility
+Added a confirmation page after the user submits their form
+///downloaded testing tool - Mobile Simulator - responsive testing tool (google chrome)
+tested browser responsiveness using how big is my browser, begins to break down at <900px
+media queries added to add responsiveness for <900px
+succeeded on all but form
+used line breaks to force a narrow form
