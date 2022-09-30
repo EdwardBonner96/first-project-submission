@@ -27,5 +27,4 @@ Put about us text into two columns and padded
 Changed header position to relative to fix bug making it cover the top of the sections it jumped to when using nav elements (no longer sticky)
 Styled meetups section
 Fixed bug: Got rid of extra left/right footer padding that extended the website past 100% and header border that did the same
-
-Remember - redirect page after user hits "submit" on form
+Add hero text in div to hero image, gave up on circle idea, difficult to implement
