@@ -28,3 +28,4 @@ Changed header position to relative to fix bug making it cover the top of the se
 Styled meetups section
 Fixed bug: Got rid of extra left/right footer padding that extended the website past 100% and header border that did the same
 Add hero text in div to hero image, gave up on circle idea, difficult to implement
+Fixed header element with code from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/

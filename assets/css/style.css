@@ -19,12 +19,14 @@ header {
     width: 100%;
     background-color: white;
     height: 50px;
-    top: 0;
+    position: sticky;
+    top: 0px;
     border-bottom: 1px solid #003b49;
 }
 
-body {
-    margin-top: 50px;
+/* html element code taken from: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ */
+html {
+    scroll-padding-top: 50px;
 }
 
 #title {
@@ -82,10 +84,6 @@ nav a:hover {
     top: 15%;
     left: 15%;
     padding: 10px 0 0 10px;
-}
-
-#hero-text h2 {
-    
 }
 
 /* About Us */
